@@ -67,7 +67,7 @@ public class GenamonPanel : MonoBehaviour
         if (BeamContext.Default.Accounts.Current.ExternalIdentities.Length > 0)
         {
             var walletAddress = BeamContext.Default.Accounts.Current.ExternalIdentities[0].userId;
-            Application.OpenURL($"https://explorer.solana.com/address/{walletAddress}?cluster=devnet");
+            Application.OpenURL($"https://suiscan.xyz/devnet/account/{walletAddress}");
         }
     }
 

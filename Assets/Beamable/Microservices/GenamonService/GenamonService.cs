@@ -75,7 +75,7 @@ namespace Beamable.Microservices
                 
                 await Services.Inventory.AddItem(itemRef, new Dictionary<string, string>
                 {
-                    {"imageUrl", imageUrl}, //workaround
+                    {"imageUrl", imageUrl},
                     {"name", genamon.name},
                     {"elementalType", string.Join(",", genamon.type)},
                     {"health", genamon.health.ToString()},
@@ -86,7 +86,10 @@ namespace Beamable.Microservices
                     {"speed", genamon.speed.ToString()},
                     {"abilities", string.Join(',', genamon.abilities)},
                     {"moves", string.Join(',', genamon.moves)},
-                    {"desc", genamon.description}
+                    {"desc", genamon.description},
+                    {"$description", genamon.description},
+                    {"$name", genamon.name},
+                    {"$url", imageUrl}
                 });
 
                 await PendingPokemonCollection.DeleteById(db, genamonId);
