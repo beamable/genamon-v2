@@ -31,7 +31,7 @@ public class GenamonSpawner : MonoBehaviour
             OnGenamonReady();
         });
         
-        var playerGenamon = playerOne.Inventory.GetItems("items.genamon");
+        var playerGenamon = playerOne.Inventory.GetItems("items.blockchain_item.genamon");
         playerGenamon.OnDataUpdated += OnPlayerInventoryUpdated;
 
         OnPlayerInventoryUpdated(playerGenamon.ToList());

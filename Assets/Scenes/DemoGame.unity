@@ -32635,6 +32635,11 @@ PrefabInstance:
       propertyPath: fireworks
       value: 
       objectReference: {fileID: 1433466824}
+    - target: {fileID: 5505685145280510908, guid: e2933f40dfc9f450ca0150968d7397a4,
+        type: 3}
+      propertyPath: genamonRef.Id
+      value: items.blockchain_item.genamon
+      objectReference: {fileID: 0}
     - target: {fileID: 6700378441694474880, guid: e2933f40dfc9f450ca0150968d7397a4,
         type: 3}
       propertyPath: m_Name
