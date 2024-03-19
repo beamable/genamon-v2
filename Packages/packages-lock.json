@@ -24,7 +24,7 @@
       "url": "https://nexus.beamable.com/nexus/content/repositories/unity"
     },
     "com.beamable.sui": {
-      "version": "https://github.com/beamable/sui-example-unity.git?path=/Packages/com.beamable.sui#0.0.2",
+      "version": "https://github.com/beamable/sui-example-unity.git?path=/Packages/com.beamable.sui#1.0.0",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -36,7 +36,7 @@
         "com.unity.test-framework.performance": "2.8.1-preview",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "6dffd27df88c4c79e868109fcc9ee2fc865fa6fa"
+      "hash": "c96ce6a1fd7ada8b74317ac5179d13a3516bfc68"
     },
     "com.unity.addressables": {
       "version": "1.19.19",
