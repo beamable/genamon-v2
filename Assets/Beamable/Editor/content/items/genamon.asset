@@ -23,5 +23,5 @@ MonoBehaviour:
   federation:
     HasValue: 0
     Value:
-      Service: SuiFederation
-      Namespace: sui
+      Service:
+      Namespace:
