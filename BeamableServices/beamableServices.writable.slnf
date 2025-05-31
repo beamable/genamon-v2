@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "beamableServices.sln",
+    "projects": [
+      "../Library/BeamableEditor/GeneratedProjects/Unity.Beamable.Customer.Common/Unity.Beamable.Customer.Common.csproj",
+      "GenamonService/GenamonService.csproj",
+      "GenamonStorage/GenamonStorage.csproj"
+    ]
+  }
+}
