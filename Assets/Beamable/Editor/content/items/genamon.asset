@@ -21,7 +21,7 @@ MonoBehaviour:
   clientPermission:
     writeSelf: 0
   federation:
-    HasValue: 0
+    HasValue: 1
     Value:
-      Service:
-      Namespace:
+      Service: Web3SolanaFederation
+      Namespace: Web3SolanaIdentity
